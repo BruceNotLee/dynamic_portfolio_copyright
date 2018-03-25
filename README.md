@@ -7,16 +7,12 @@ Simple copyright generator with name and message.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'dynamic_portfolio_copyright'
+gem 'dynamic_portfolio_copyright', git: 'https://github.com/BruceNotLee/dynamic_portfolio_copyright'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install dynamic_portfolio_copyright
 
 ## Usage
 In application.helper
