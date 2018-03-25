@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+before_action :set_copyright
+
+def set_copyright
+  @copyright = DynamicPortfolioCopyright::Renderer.copyright 'Bruce Lesko', 'All Rights Reserved'
+end
+```
 
 ## Development
 
