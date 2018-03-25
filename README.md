@@ -19,13 +19,16 @@ Or install it yourself as:
     $ gem install dynamic_portfolio_copyright
 
 ## Usage
-
+In application.helper
 ```ruby
-before_action :set_copyright
-
 def set_copyright
-  @copyright = DynamicPortfolioCopyright::Renderer.copyright 'Bruce Lesko', 'All Rights Reserved'
+  DynamicPortfolioCopyright::Renderer.copyright 'Bruce Lesko', 'All Rights Reserved'
 end
+```
+
+render with
+```ruby
+<%= set_copyright %>
 ```
 
 ## Development
