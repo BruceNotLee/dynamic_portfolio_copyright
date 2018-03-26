@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dynamic_portfolio_copyright (0.1.1)
+    dynamic_portfolio_copyright (0.1.1a)
 
 GEM
   remote: https://rubygems.org/
