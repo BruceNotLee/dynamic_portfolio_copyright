@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["bruce.lesko@outlook.com"]
 
   spec.summary       = %q{Simple copyright generator with name and message.}
-  spec.homepage      = "https://wwww.brucelesko.com"
+  spec.homepage      = "https://www.brucelesko.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
